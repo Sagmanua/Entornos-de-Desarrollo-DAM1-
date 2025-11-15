@@ -48,12 +48,9 @@ El proyecto debe entregarse como una especificación lista para implementar.
 **Funciones principales**:
 
 * **Ingreso manual de datos**: formulario con campos:
-
   * Nombre del jugador
   * Batallas
   * Daño total
-  * Barcos/tanques usados (mapa tanque → daño o daño medio)
-  * Fechas (registro / rango de análisis)
   * Clan (opcional)
 
 * **Modo automático**: proceso que analiza automáticamente datos subidos (por archivo o API).
@@ -61,14 +58,12 @@ El proyecto debe entregarse como una especificación lista para implementar.
 * **Cálculos automáticos**:
 
   * Daño promedio (avg dmg)
-  * Daño por tanque
   * Partidas ganadas / perdidas (si se dispone de ese dato)
   * Eficiencia total del jugador
 
 * **Visualización**:
 
-  * Mostrar estadísticas analizadas: daño promedio, kill ratio, winrate calculado, rendimiento por tanque.
-  * Gráficas (opcional): daño por tanque, evolución temporal.
+  * Mostrar estadísticas analizadas: daño promedio, kill ratio, winrate calculado
 
 #### Página 2: Lista de Tanques — "Tanks List"
 
@@ -78,7 +73,7 @@ El proyecto debe entregarse como una especificación lista para implementar.
 
   * Nombre
   * Tipo (Pesado, Medio, Ligero, Artillería)
-  * Estado actual (Disponible / Roto / Desbalanceado)
+  * Estado actual (Disponible / Roto / Puede comprar)
 
 * **Filtros**:
 
@@ -87,12 +82,6 @@ El proyecto debe entregarse como una especificación lista para implementar.
 
 * **Admin**: capacidad para marcar rápidamente un tanque como roto o funcional.
 
-* **Ejemplo (tabla)**:
-
-| Tanque | Tipo   | Estado     |
-| ------ | ------ | ---------- |
-| T-34   | Medio  | Disponible |
-| Maus   | Pesado | Roto       |
 
 #### Página 3: Estadísticas de Clanes — "Clan Stats"
 
@@ -103,7 +92,6 @@ El proyecto debe entregarse como una especificación lista para implementar.
   * Nombre del clan
   * Cantidad de jugadores
   * Daño promedio del clan
-  * Recursos del clan (Oro, Combustible, Materiales, Créditos)
 
 * Botón para ver información detallada de cada clan.
 
