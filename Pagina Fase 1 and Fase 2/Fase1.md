@@ -48,7 +48,7 @@ El proyecto debe entregarse como una especificación lista para implementar.
 **Funciones principales**:
 
 * **Ingreso manual de datos**: formulario con campos:
-  * Nombre del jugador
+  * Nombr   e del jugador
   * Batallas
   * Daño total
   * Clan (opcional)
